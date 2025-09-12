@@ -1,0 +1,51 @@
+{
+    "schema_check": "PASSED",
+    "checks_performed": [
+        "Schema check",
+        "Null check",
+        "Type/Format check",
+        "Allowed values check"
+    ],
+    "summary": {
+        "total_rows": 10,
+        "passed_rows": 3,
+        "failed_rows": 7
+    },
+    "failed_details": [
+        {
+            "row": 4,
+            "column": "event_id",
+            "invalid_value": "<NULL>"
+        },
+        {
+            "row": 5,
+            "column": "user_id",
+            "invalid_value": "<NULL>"
+        },
+        {
+            "row": 6,
+            "column": "timestamp",
+            "invalid_value": "INVALID_DATE"
+        },
+        {
+            "row": 7,
+            "column": "ip",
+            "invalid_value": "999.999.999.999"
+        },
+        {
+            "row": 8,
+            "column": "country",
+            "invalid_value": "USA"
+        },
+        {
+            "row": 9,
+            "column": "event_type",
+            "invalid_value": "withdrawal"
+        },
+        {
+            "row": 10,
+            "column": "amount",
+            "invalid_value": "abc"
+        }
+    ]
+}

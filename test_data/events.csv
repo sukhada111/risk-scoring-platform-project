@@ -1,0 +1,6 @@
+event_id,timestamp,user_id,ip,country,event_type,amount
+e1,2025-08-25T12:00:01Z,u_001,10.0.0.1,US,login,0
+e2,2025-08-25T12:00:05Z,u_001,10.0.0.2,US,change_password,0
+e3,2025-08-25T12:00:08Z,u_002,10.0.1.5,CA,payment,129.99
+e4,2025-08-25T12:00:09Z,u_001,10.0.0.2,US,payment,950.00
+e5,2025-08-25T12:00:15Z,u_003,172.16.0.9,GB,login,0

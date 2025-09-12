@@ -1,0 +1,11 @@
+event_id,timestamp,user_id,ip,country,event_type,amount
+e1,2025-08-25T12:00:01Z,u_001,10.0.0.1,US,login,0
+e2,2025-08-25T12:00:05Z,u_001,10.0.0.2,US,change_password,0
+e3,2025-08-25T12:00:08Z,u_002,10.0.1.5,CA,payment,129.99
+,2025-08-25T12:00:09Z,u_001,10.0.0.2,US,payment,950.00        
+e5,2025-08-25T12:00:15Z,,172.16.0.9,GB,login,0                 
+e6,INVALID_DATE,u_004,192.168.0.1,US,login,0                   
+e7,2025-08-25T12:00:20Z,u_005,999.999.999.999,US,payment,25.5  
+e8,2025-08-25T12:00:25Z,u_006,10.0.0.10,USA,payment,100.00     
+e9,2025-08-25T12:00:30Z,u_007,10.0.0.11,US,withdrawal,200.00   
+e10,2025-08-25T12:00:35Z,u_008,10.0.0.12,US,login,abc          
