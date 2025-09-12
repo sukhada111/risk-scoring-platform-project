@@ -51,6 +51,7 @@ python3 validate_events.py test_data/events_issues.csv
 ```
 
 ### 2. Console Output
+<img width="938" height="281" alt="image" src="https://github.com/user-attachments/assets/6f343373-196b-494b-9345-15e1a28c6645" />
 
 ### 3. JSON Output
 
@@ -142,4 +143,4 @@ These tools provide:
 
 This was the original problem statement for the **real-time risk scoring platform**:
 
-> A script that reads `events.csv` (sample below), validates schema/types, and outputs a report (pass/fail + row counts).
+> Option A: A script that reads `events.csv`, validates schema/types, and outputs a report (pass/fail + row counts).
